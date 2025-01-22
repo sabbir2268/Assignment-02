@@ -30,6 +30,10 @@ li{
     align-items: center;
     width: 190px;
     font-size: 20px;
+    transition: border 0.3s ease;
+}
+.btn:hover{
+    box-shadow: 5px 5px 2px grey;
 }
 .orange{
     color: rgb(254, 163, 1);
@@ -70,6 +74,10 @@ li{
     margin: 0 32px;
     font-weight: 500;
 }
+.links > ul > li > a:hover{
+    text-decoration: underline 2px rgb(106, 102, 102);
+}
+
 .nav-btn{
     display: flex;
     align-items: center;
@@ -138,6 +146,10 @@ li{
     justify-content: center;
     align-items: center;
     padding: 50px 40px ;
+    transition: all 0.3s ease;
+}
+.box:hover{
+    box-shadow: 0  5px 5px rgba(128, 128, 128, 0.592);
 }
 .box img{
     width: 140px;
@@ -184,6 +196,12 @@ li{
     align-items: center;
     gap: 10px;
 }
+.left-btn:hover{
+    background-color: rgba(254, 161, 1, 0.69);
+}
+.right-btn:hover{
+    background-color: rgba(254, 161, 1, 0.69);
+}
 .side-btn button i{
     width: 60px;
     height: 60px;
@@ -227,6 +245,10 @@ li{
     background-color: white;
     position: relative;
     border-radius: 16px;
+    transition: all 0.3s ease;
+}
+.story-cart:hover{
+    box-shadow: 0px 0px 10px gray;
 }
 #story-1 .story-txt{
     padding: 60px 40px 40px 40px;
@@ -294,6 +316,10 @@ li{
     font-size: 30px;
     font-weight: 700;
 }
+.marq-line:hover{
+    animation-play-state: paused;
+}
+
 
 /* css of footer section starts here */
 .footer{
@@ -337,12 +363,17 @@ li{
 .footer-midle ul li a{
     color: white;
 }
+.footer-midle ul li a:hover{
+    text-decoration: underline 2px rgb(107, 107, 116);
+}
+
 .footer-midle ul li{
     margin-bottom: 20px;
 }
 .icons img{
     margin-right: 10px;
 }
+
 
 
 /* css of footer section ends here */
@@ -357,6 +388,7 @@ li{
         margin: 0;
     }
     .btn{
+        width: 130px;
         font-size: 16px;
     }
     .navbar{
@@ -476,5 +508,9 @@ li{
         height:40px ;
         font-size: 20px;
         font-weight: 500;
+    }
+
+    .footer-title{
+        margin-bottom: 40px;
     }
 }
